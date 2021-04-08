@@ -29,7 +29,7 @@ public class Main {
                 if(j==0) {
                     dp[i][0] = dp[i-1][1]%mod;
                 }
-                
+
                 // ii)
                 else if(j==9) {
                     dp[i][9] = dp[i-1][8]%mod;
