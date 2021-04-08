@@ -6,11 +6,6 @@ import java.util.Scanner;
 *    -> 오른쪽에서 가장 길고, 왼쪽에서도 가장 길다 */
 
 public class Main {
-
-
-     // 메모이제이션 배열을 2차원 배열로 선언하여 LIS, LDS를 수행
-
-
     public static void main(String[] args)   {
         Scanner sc = new Scanner(System.in);
 
