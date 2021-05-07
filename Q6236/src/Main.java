@@ -30,7 +30,7 @@ public class Main {
             long cash = 0;
             sum = 0;
             for(int i=0;i<N;i++){
-                while(inputs[i] > cash){
+                if(inputs[i] > cash){
                     cash = mid;
                     sum ++;
                 }
