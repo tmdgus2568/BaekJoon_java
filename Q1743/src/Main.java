@@ -57,7 +57,6 @@ public class Main {
                 search(next_x, next_y);
 
             }
-            
         }
     }
 }
